@@ -42,7 +42,7 @@
             <td>{{ $value->id }}</td>
             <td>{{ $value->name }}</td>
             <td>{{ $value->email }}</td>
-            <td>{{ $value->permissions }}</td>
+            <td>{{ $value->permission }}</td>
 
             <!-- we will also add show, edit, and delete buttons -->
             <td>
