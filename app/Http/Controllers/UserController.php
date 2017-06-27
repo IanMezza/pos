@@ -18,7 +18,8 @@ class UserController extends Controller
         $users = User::all();
 
         // load the view and pass the users
-        return view('user.index', ['users' => $users]);
+        // return view('user.index', ['users' => $users]);
+        return response()->json($users);
     }
 
     /**
